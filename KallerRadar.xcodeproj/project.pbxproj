@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF8F7B831AE50EE500CFAAD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8F7B821AE50EE500CFAAD8 /* AppDelegate.swift */; };
+		DF8F7B851AE50EE500CFAAD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8F7B841AE50EE500CFAAD8 /* ViewController.swift */; };
+		DF8F7B881AE50EE500CFAAD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF8F7B861AE50EE500CFAAD8 /* Main.storyboard */; };
+		DF8F7B8A1AE50EE500CFAAD8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF8F7B891AE50EE500CFAAD8 /* Images.xcassets */; };
+		DF8F7B8D1AE50EE500CFAAD8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF8F7B8B1AE50EE500CFAAD8 /* LaunchScreen.xib */; };
+		DF8F7B991AE50EE500CFAAD8 /* KallerRadarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8F7B981AE50EE500CFAAD8 /* KallerRadarTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF8F7B931AE50EE500CFAAD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF8F7B751AE50EE500CFAAD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF8F7B7C1AE50EE500CFAAD8;
+			remoteInfo = KallerRadar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF8F7B7D1AE50EE500CFAAD8 /* KallerRadar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KallerRadar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF8F7B811AE50EE500CFAAD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF8F7B821AE50EE500CFAAD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF8F7B841AE50EE500CFAAD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF8F7B871AE50EE500CFAAD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF8F7B891AE50EE500CFAAD8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DF8F7B8C1AE50EE500CFAAD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DF8F7B921AE50EE500CFAAD8 /* KallerRadarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KallerRadarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF8F7B971AE50EE500CFAAD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF8F7B981AE50EE500CFAAD8 /* KallerRadarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KallerRadarTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF8F7B7A1AE50EE500CFAAD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8F7B8F1AE50EE500CFAAD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF8F7B741AE50EE500CFAAD8 = {
+			isa = PBXGroup;
+			children = (
+				DF8F7B7F1AE50EE500CFAAD8 /* KallerRadar */,
+				DF8F7B951AE50EE500CFAAD8 /* KallerRadarTests */,
+				DF8F7B7E1AE50EE500CFAAD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF8F7B7E1AE50EE500CFAAD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF8F7B7D1AE50EE500CFAAD8 /* KallerRadar.app */,
+				DF8F7B921AE50EE500CFAAD8 /* KallerRadarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF8F7B7F1AE50EE500CFAAD8 /* KallerRadar */ = {
+			isa = PBXGroup;
+			children = (
+				DF8F7B821AE50EE500CFAAD8 /* AppDelegate.swift */,
+				DF8F7B841AE50EE500CFAAD8 /* ViewController.swift */,
+				DF8F7B861AE50EE500CFAAD8 /* Main.storyboard */,
+				DF8F7B891AE50EE500CFAAD8 /* Images.xcassets */,
+				DF8F7B8B1AE50EE500CFAAD8 /* LaunchScreen.xib */,
+				DF8F7B801AE50EE500CFAAD8 /* Supporting Files */,
+			);
+			path = KallerRadar;
+			sourceTree = "<group>";
+		};
+		DF8F7B801AE50EE500CFAAD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF8F7B811AE50EE500CFAAD8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF8F7B951AE50EE500CFAAD8 /* KallerRadarTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF8F7B981AE50EE500CFAAD8 /* KallerRadarTests.swift */,
+				DF8F7B961AE50EE500CFAAD8 /* Supporting Files */,
+			);
+			path = KallerRadarTests;
+			sourceTree = "<group>";
+		};
+		DF8F7B961AE50EE500CFAAD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF8F7B971AE50EE500CFAAD8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF8F7B7C1AE50EE500CFAAD8 /* KallerRadar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF8F7B9C1AE50EE500CFAAD8 /* Build configuration list for PBXNativeTarget "KallerRadar" */;
+			buildPhases = (
+				DF8F7B791AE50EE500CFAAD8 /* Sources */,
+				DF8F7B7A1AE50EE500CFAAD8 /* Frameworks */,
+				DF8F7B7B1AE50EE500CFAAD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KallerRadar;
+			productName = KallerRadar;
+			productReference = DF8F7B7D1AE50EE500CFAAD8 /* KallerRadar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF8F7B911AE50EE500CFAAD8 /* KallerRadarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF8F7B9F1AE50EE500CFAAD8 /* Build configuration list for PBXNativeTarget "KallerRadarTests" */;
+			buildPhases = (
+				DF8F7B8E1AE50EE500CFAAD8 /* Sources */,
+				DF8F7B8F1AE50EE500CFAAD8 /* Frameworks */,
+				DF8F7B901AE50EE500CFAAD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF8F7B941AE50EE500CFAAD8 /* PBXTargetDependency */,
+			);
+			name = KallerRadarTests;
+			productName = KallerRadarTests;
+			productReference = DF8F7B921AE50EE500CFAAD8 /* KallerRadarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF8F7B751AE50EE500CFAAD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = kebodev;
+				TargetAttributes = {
+					DF8F7B7C1AE50EE500CFAAD8 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					DF8F7B911AE50EE500CFAAD8 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = DF8F7B7C1AE50EE500CFAAD8;
+					};
+				};
+			};
+			buildConfigurationList = DF8F7B781AE50EE500CFAAD8 /* Build configuration list for PBXProject "KallerRadar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF8F7B741AE50EE500CFAAD8;
+			productRefGroup = DF8F7B7E1AE50EE500CFAAD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF8F7B7C1AE50EE500CFAAD8 /* KallerRadar */,
+				DF8F7B911AE50EE500CFAAD8 /* KallerRadarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF8F7B7B1AE50EE500CFAAD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF8F7B881AE50EE500CFAAD8 /* Main.storyboard in Resources */,
+				DF8F7B8D1AE50EE500CFAAD8 /* LaunchScreen.xib in Resources */,
+				DF8F7B8A1AE50EE500CFAAD8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8F7B901AE50EE500CFAAD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF8F7B791AE50EE500CFAAD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF8F7B851AE50EE500CFAAD8 /* ViewController.swift in Sources */,
+				DF8F7B831AE50EE500CFAAD8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8F7B8E1AE50EE500CFAAD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF8F7B991AE50EE500CFAAD8 /* KallerRadarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF8F7B941AE50EE500CFAAD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF8F7B7C1AE50EE500CFAAD8 /* KallerRadar */;
+			targetProxy = DF8F7B931AE50EE500CFAAD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF8F7B861AE50EE500CFAAD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF8F7B871AE50EE500CFAAD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF8F7B8B1AE50EE500CFAAD8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF8F7B8C1AE50EE500CFAAD8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF8F7B9A1AE50EE500CFAAD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF8F7B9B1AE50EE500CFAAD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF8F7B9D1AE50EE500CFAAD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KallerRadar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF8F7B9E1AE50EE500CFAAD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KallerRadar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DF8F7BA01AE50EE500CFAAD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KallerRadarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KallerRadar.app/KallerRadar";
+			};
+			name = Debug;
+		};
+		DF8F7BA11AE50EE500CFAAD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KallerRadarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KallerRadar.app/KallerRadar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF8F7B781AE50EE500CFAAD8 /* Build configuration list for PBXProject "KallerRadar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF8F7B9A1AE50EE500CFAAD8 /* Debug */,
+				DF8F7B9B1AE50EE500CFAAD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF8F7B9C1AE50EE500CFAAD8 /* Build configuration list for PBXNativeTarget "KallerRadar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF8F7B9D1AE50EE500CFAAD8 /* Debug */,
+				DF8F7B9E1AE50EE500CFAAD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF8F7B9F1AE50EE500CFAAD8 /* Build configuration list for PBXNativeTarget "KallerRadarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF8F7BA01AE50EE500CFAAD8 /* Debug */,
+				DF8F7BA11AE50EE500CFAAD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF8F7B751AE50EE500CFAAD8 /* Project object */;
+}
