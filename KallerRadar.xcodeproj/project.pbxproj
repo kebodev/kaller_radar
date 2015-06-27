@@ -102,8 +102,8 @@
 		DF748DDD1B1A1AE100C93188 /* postbar2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = postbar2.png; sourceTree = "<group>"; };
 		DF8488101B0F19AF001F172A /* PostItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostItems.swift; path = ../PostItems.swift; sourceTree = "<group>"; };
 		DF8488121B0F489F001F172A /* PostLineItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostLineItem.swift; sourceTree = "<group>"; };
-		DF8488161B0FA106001F172A /* bus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bus.png; path = ../../../Sketch_stuffs/bus.png; sourceTree = "<group>"; };
-		DF84881A1B0FBBFB001F172A /* nyil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nyil.png; path = ../../../Sketch_stuffs/nyil.png; sourceTree = "<group>"; };
+		DF8488161B0FA106001F172A /* bus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bus.png; path = Base.lproj/bus.png; sourceTree = "<group>"; };
+		DF84881A1B0FBBFB001F172A /* nyil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nyil.png; path = Base.lproj/nyil.png; sourceTree = "<group>"; };
 		DF8F7B7D1AE50EE500CFAAD8 /* KallerRadar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KallerRadar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF8F7B811AE50EE500CFAAD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF8F7B821AE50EE500CFAAD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
