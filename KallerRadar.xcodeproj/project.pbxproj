@@ -12,14 +12,14 @@
 		DF3E954E1AFFEC2600FE64E6 /* create_post_icon3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF3E954D1AFFEC2600FE64E6 /* create_post_icon3x.png */; };
 		DF6538D51AE52C18006625CC /* AppIcons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF6538D41AE52C18006625CC /* AppIcons.xcassets */; };
 		DF6BD3D41B3EE74600CC7CE1 /* create_post_ibutton.png in Resources */ = {isa = PBXBuildFile; fileRef = DF6BD3D61B3EE74600CC7CE1 /* create_post_ibutton.png */; };
+		DF6BD3DB1B3EEB1400CC7CE1 /* bus.png in Resources */ = {isa = PBXBuildFile; fileRef = DF6BD3DD1B3EEB1400CC7CE1 /* bus.png */; };
+		DF6BD3DF1B3EEB2800CC7CE1 /* nyil.png in Resources */ = {isa = PBXBuildFile; fileRef = DF6BD3E11B3EEB2800CC7CE1 /* nyil.png */; };
 		DF748DD41B19FE5200C93188 /* postbar.png in Resources */ = {isa = PBXBuildFile; fileRef = DF748DD31B19FE5200C93188 /* postbar.png */; };
 		DF748DD81B1A071500C93188 /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = DF748DD71B1A071500C93188 /* header.png */; };
 		DF748DDC1B1A16C600C93188 /* header_post.png in Resources */ = {isa = PBXBuildFile; fileRef = DF748DDB1B1A16C600C93188 /* header_post.png */; };
 		DF748DDE1B1A1AE100C93188 /* postbar2.png in Resources */ = {isa = PBXBuildFile; fileRef = DF748DDD1B1A1AE100C93188 /* postbar2.png */; };
 		DF8488111B0F19AF001F172A /* PostItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8488101B0F19AF001F172A /* PostItems.swift */; };
 		DF8488131B0F489F001F172A /* PostLineItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8488121B0F489F001F172A /* PostLineItem.swift */; };
-		DF8488171B0FA106001F172A /* bus.png in Resources */ = {isa = PBXBuildFile; fileRef = DF8488161B0FA106001F172A /* bus.png */; };
-		DF84881B1B0FBBFB001F172A /* nyil.png in Resources */ = {isa = PBXBuildFile; fileRef = DF84881A1B0FBBFB001F172A /* nyil.png */; };
 		DF8F7B831AE50EE500CFAAD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8F7B821AE50EE500CFAAD8 /* AppDelegate.swift */; };
 		DF8F7B8D1AE50EE500CFAAD8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF8F7B8B1AE50EE500CFAAD8 /* LaunchScreen.xib */; };
 		DF8F7B991AE50EE500CFAAD8 /* KallerRadarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8F7B981AE50EE500CFAAD8 /* KallerRadarTests.swift */; };
@@ -96,14 +96,16 @@
 		DF3E954D1AFFEC2600FE64E6 /* create_post_icon3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = create_post_icon3x.png; sourceTree = "<group>"; };
 		DF6538D41AE52C18006625CC /* AppIcons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppIcons.xcassets; sourceTree = "<group>"; };
 		DF6BD3D51B3EE74600CC7CE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/create_post_ibutton.png; sourceTree = "<group>"; };
+		DF6BD3DC1B3EEB1400CC7CE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/bus.png; sourceTree = "<group>"; };
+		DF6BD3DE1B3EEB1700CC7CE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/bus.png; sourceTree = "<group>"; };
+		DF6BD3E01B3EEB2800CC7CE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/nyil.png; sourceTree = "<group>"; };
+		DF6BD3E21B3EEB2C00CC7CE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/nyil.png; sourceTree = "<group>"; };
 		DF748DD31B19FE5200C93188 /* postbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = postbar.png; sourceTree = "<group>"; };
 		DF748DD71B1A071500C93188 /* header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header.png; sourceTree = "<group>"; };
 		DF748DDB1B1A16C600C93188 /* header_post.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header_post.png; sourceTree = "<group>"; };
 		DF748DDD1B1A1AE100C93188 /* postbar2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = postbar2.png; sourceTree = "<group>"; };
 		DF8488101B0F19AF001F172A /* PostItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostItems.swift; path = ../PostItems.swift; sourceTree = "<group>"; };
 		DF8488121B0F489F001F172A /* PostLineItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostLineItem.swift; sourceTree = "<group>"; };
-		DF8488161B0FA106001F172A /* bus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bus.png; path = Base.lproj/bus.png; sourceTree = "<group>"; };
-		DF84881A1B0FBBFB001F172A /* nyil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nyil.png; path = Base.lproj/nyil.png; sourceTree = "<group>"; };
 		DF8F7B7D1AE50EE500CFAAD8 /* KallerRadar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KallerRadar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF8F7B811AE50EE500CFAAD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF8F7B821AE50EE500CFAAD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -285,11 +287,11 @@
 				DFDBAB881B1CE55C00A8C6DF /* feed_on.png */,
 				DFDBAB891B1CE55C00A8C6DF /* post_on.png */,
 				DF748DDD1B1A1AE100C93188 /* postbar2.png */,
-				DF8488161B0FA106001F172A /* bus.png */,
+				DF6BD3DD1B3EEB1400CC7CE1 /* bus.png */,
 				DF748DDB1B1A16C600C93188 /* header_post.png */,
 				DFF5CB541B134A470002328C /* send_kaller2.png */,
 				DFF5CB421B10E5410002328C /* create_post_tstbutton.png */,
-				DF84881A1B0FBBFB001F172A /* nyil.png */,
+				DF6BD3E11B3EEB2800CC7CE1 /* nyil.png */,
 				DFE713901AF69DA800D8342C /* akosjo3.jpg */,
 				DFE713941AF6A04200D8342C /* akosjo5.jpg */,
 				DFE713601AF696F300D8342C /* akosjo2.jpg */,
@@ -459,8 +461,8 @@
 				DF8F7BC91AE51E4500CFAAD8 /* globe.png in Resources */,
 				DFE713931AF69F2D00D8342C /* akosjo4.jpg in Resources */,
 				DF8F7B8D1AE50EE500CFAAD8 /* LaunchScreen.xib in Resources */,
-				DF8488171B0FA106001F172A /* bus.png in Resources */,
-				DF84881B1B0FBBFB001F172A /* nyil.png in Resources */,
+				DF6BD3DB1B3EEB1400CC7CE1 /* bus.png in Resources */,
+				DF6BD3DF1B3EEB2800CC7CE1 /* nyil.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,6 +529,26 @@
 				DF6BD3D51B3EE74600CC7CE1 /* Base */,
 			);
 			name = create_post_ibutton.png;
+			sourceTree = "<group>";
+		};
+		DF6BD3DD1B3EEB1400CC7CE1 /* bus.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF6BD3DC1B3EEB1400CC7CE1 /* Base */,
+				DF6BD3DE1B3EEB1700CC7CE1 /* en */,
+			);
+			name = bus.png;
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		DF6BD3E11B3EEB2800CC7CE1 /* nyil.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF6BD3E01B3EEB2800CC7CE1 /* Base */,
+				DF6BD3E21B3EEB2C00CC7CE1 /* en */,
+			);
+			name = nyil.png;
+			path = Base.lproj;
 			sourceTree = "<group>";
 		};
 		DF8F7B8B1AE50EE500CFAAD8 /* LaunchScreen.xib */ = {
