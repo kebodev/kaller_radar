@@ -140,6 +140,7 @@ class PostCreateController: UIViewController, AKPickerViewDelegate, AKPickerView
     
     
     override func viewDidLoad() {
+        self.title = "Kaller küldése"
         println("PostCreateController didload called")
         super.viewDidLoad()
         routesToChose.removeAll(keepCapacity: false)

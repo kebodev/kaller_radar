@@ -122,7 +122,7 @@ class TineLineViewController: UIViewController, UIScrollViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.title = "Kaller feed"
         //var tst = UIBarButtonItem()
         //tst.title = "tst"
         //var tst2 = UIBarButtonItem()
