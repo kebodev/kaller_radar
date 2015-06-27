@@ -26,7 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //self.window!.rootViewController = mainController
         self.window!.rootViewController = mainNavigationController
         self.window!.makeKeyAndVisible()
-        self.mainNavigationController?.setNavigationBarHidden(true, animated: true)
+        //self.mainNavigationController?.setNavigationBarHidden(true, animated: true)
         
         Parse.setApplicationId("xC0s4FJaLmHvfq8zoFz7quBbxsbNQVUvYuk4cLFs",
             clientKey: "QnHp5ZchkI5T4oAduLJ8yG8smEbC6DpAZSpgNBod")
